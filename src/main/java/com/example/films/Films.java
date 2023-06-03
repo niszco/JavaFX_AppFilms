@@ -13,40 +13,45 @@ public class Films {
         return rang;
     }
 
-    public void setRang(Integer rang) {
+    public Integer setRang(Integer rang) {
         this.rang = rang;
+        return rang;
     }
 
     public String getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public String setId(String id) {
         this.id = id;
+        return id;
     }
 
     public String getNom() {
         return nom;
     }
 
-    public void setNom(String nom) {
+    public String setNom(String nom) {
         this.nom = nom;
+        return nom;
     }
 
     public String getActeur() {
         return acteur;
     }
 
-    public void setActeur(String acteur) {
+    public String setActeur(String acteur) {
         this.acteur = acteur;
+        return acteur;
     }
 
     public int getAnnee() {
         return annee;
     }
 
-    public void setAnnee(Integer annee) {
+    public Integer setAnnee(Integer annee) {
         this.annee = annee;
+        return annee;
     }
 
     public void add(ObservableList<Films> film) {
